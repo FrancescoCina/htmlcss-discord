@@ -51,6 +51,38 @@ body{
     background-color: #fff;
 }
 
+
+.figure{
+    width: 590px;
+}
+
+.figure img{
+    width: 100%;
+    height: 388px;
+    object-fit: cover;
+}
+
+.col-text{  
+    width: 560px;  
+    padding: 50px 190px 0 100px;    
+}
+
+
+
+.col-text h1{
+    font-size: 32px;
+}
+
+.col-text p{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.bg-lightgrey{
+    background-color: #f6f2f2;
+}
+
 /* header  */
 
 /* nav bar  */
@@ -71,7 +103,6 @@ header .container{
     vertical-align: middle;    
 }
 
-
 .top-bar .main-menu li{
     display: inline-block;
 }
@@ -82,17 +113,13 @@ header .container{
     margin: 0 20px;
 
 }
-
 .top-bar .main-menu li a:hover{
     text-decoration: underline;
 }
 
-
 .top-bar .col a{
     text-decoration:none;
 }    
-
-
 /* jumbo  */
 
 .jumbotron{
@@ -116,18 +143,19 @@ header .container{
 }
 
 .jumbotron .content p{
-    padding-top: 30px;
-    font-size: 17px;
+    padding-top: 25px;
+    font-size: 15px;
     line-height: 25px;
 }
 
 .jumbotron .jumbo-buttons{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .jumbotron .jumbo-buttons a{
     text-decoration:none;
     margin: 0 9px;
+    font-size: 15px;
 }
 
 .jumbotron .jumbo-buttons span{
@@ -135,4 +163,64 @@ header .container{
     color: black;
 }
 
+/* Section One */
+
+.container .first-section{
+    width: 100%;    
+    padding-top:65px;
+    padding-left: 35px;
+    padding-bottom: 40px;
+}
+
+/* Section Two */
+
+.container .second-section{
+    width: 100%;     
+}
+
+.container .second-section .col-text{
+    padding: 170px 120px 100px 200px;
+}
+
+.second-section .figure{
+    padding: 60px 50px 0 0;
+}
+
+.second-section .figure .img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* section three  */
+
+.container .third-section{
+    width: 100%; 
+    padding-top: 50px;
+}
+
+/* section four  */
+
+.container .fourth-section{
+    width: 100%; 
+    height: 500px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.fourth-section .last-content{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.fourth-section .last-content h1{
+    font-size: 32px;
+}
+
+.fourth-section .last-content p{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+}
 
