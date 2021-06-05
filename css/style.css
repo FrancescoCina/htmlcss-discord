@@ -269,40 +269,56 @@ header .container{
     height: 380px;
 }
 
-.start-adventure{
-    width: 300px;
-    height: 150px;
+.downloadformac{
+    position: absolute;
+    top: 584px;
+    left: 466px;
+}
+
+.start-adventure{    
+    width: 350px;
+    height: 35px;
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-position:center;
     background-repeat: no-repeat;
-
 }
 
-.start-adventure h3{
+.downloadformac h3{
     text-align: center;
+    font-size: 18px;
+}
 
+.downloadformac .last-button{
+    position: relative;
+    top: 38px;
+    left:95px;
+}
+.downloadformac .last-button a{
+    text-decoration: none;
+}
+
+.downloadformac .last-button a span{
+    padding-right: 8px;
 }
 
 /* footer  */
 
-
 .foot{
     width: 100%;
-    height: 800px;
+    height: 620px;
 }
 
 .foot .details{
-    width: 100%;
+    width: 80%;
     height: 500px;
+    margin: 0 auto;
     border-bottom: 1px solid #5858e2;
 }
  .container .foot .footer-col-main{
     float: left;
     padding-top: 50px;
-    padding-left: 80px;
-    width: 340px;
-    
+    width: 340px;    
 }
 
 .container .foot .footer-col-main h3{
@@ -343,8 +359,8 @@ header .container{
 /* prodotto */
 .container .foot .footer-col{
     float: left;
-    padding: 50px 10px 0 10px;
-    width: 200px;
+    padding: 50px 5px 0 5px;
+    width: 155px;
 }
 
 .container .foot .footer-col li{
@@ -365,7 +381,7 @@ footer .credits .logo{
     width: 600px;
     height: 90px;
     line-height: 90px;
-    padding-left: 80px;
+    padding-left: 121px;
 }
 
 footer .credits .logo img{  
@@ -375,7 +391,7 @@ footer .credits .logo img{
 footer .credits .register{
     float: left;
     width: 600px;
-    padding: 35px 80px 0 0;
+    padding: 35px 121px 0 0;
 }   
 
 footer .credits .register a{
