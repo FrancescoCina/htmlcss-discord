@@ -35,6 +35,22 @@ body{
     text-align: right;
 }
 
+
+.waves{
+    background-image: url(../img/wave.svg);
+    height: 50px;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.second-waves{
+background-image: url(../img/waves/waves2_3.svg);
+    height: 50px;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-color:#f6f2f2;
+}
+
 /* classi bottoni  */
 .btn{
     border-radius: 20px;
@@ -196,11 +212,11 @@ header .container{
 }
 
 .container .second-section .col-text{
-    padding: 170px 120px 100px 200px;
+    padding: 105px 120px 100px 200px;
 }
 
 .second-section .figure{
-    padding: 60px 50px 0 0;
+    padding: 60px 50px 45px 0;
 }
 
 .second-section .figure img{
